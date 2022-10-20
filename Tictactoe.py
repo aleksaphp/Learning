@@ -62,6 +62,7 @@ def who_wins(board):
             return win[0]
     return nothing
 
+print('Hello, world')
 
 def who_wins_check(board):
     global counter
@@ -92,4 +93,3 @@ for i in range(max_turns):
 
 # TODO: save (and load) game to file at any turn
 
-stop = quit()
