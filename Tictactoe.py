@@ -62,7 +62,6 @@ def who_wins(board):
             return win[0]
     return nothing
 
-print('Hello, world')
 
 def who_wins_check(board):
     global counter
@@ -77,7 +76,7 @@ def who_wins_check(board):
         counter += 1 
         if counter == 9:
             print('Ничья!')
-            quit()         
+            quit()
 
 
 def game():
